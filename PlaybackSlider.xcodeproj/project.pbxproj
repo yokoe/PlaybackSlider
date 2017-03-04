@@ -18,6 +18,8 @@
 		19CFFE651E6B007A0053BDEC /* CachedSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CFFE641E6B007A0053BDEC /* CachedSegment.swift */; };
 		19CFFE661E6B01F20053BDEC /* PlaybackSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CFFE001E6AF5990053BDEC /* PlaybackSlider.framework */; };
 		19CFFE681E6B03890053BDEC /* PlaybackSlider.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 19CFFE671E6B03890053BDEC /* PlaybackSlider.podspec */; };
+		19CFFE6A1E6B07140053BDEC /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 19CFFE691E6B07140053BDEC /* README.md */; };
+		19CFFE6C1E6B072E0053BDEC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 19CFFE6B1E6B072E0053BDEC /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		19CFFE5E1E6AFDA20053BDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19CFFE641E6B007A0053BDEC /* CachedSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedSegment.swift; sourceTree = "<group>"; };
 		19CFFE671E6B03890053BDEC /* PlaybackSlider.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PlaybackSlider.podspec; sourceTree = "<group>"; };
+		19CFFE691E6B07140053BDEC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		19CFFE6B1E6B072E0053BDEC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				19CFFE671E6B03890053BDEC /* PlaybackSlider.podspec */,
+				19CFFE691E6B07140053BDEC /* README.md */,
+				19CFFE6B1E6B072E0053BDEC /* LICENSE */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19CFFE6C1E6B072E0053BDEC /* LICENSE in Resources */,
 				19CFFE681E6B03890053BDEC /* PlaybackSlider.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19CFFE6A1E6B07140053BDEC /* README.md in Sources */,
 				19CFFE4E1E6AFCDF0053BDEC /* PlaybackSlider.swift in Sources */,
 				19CFFE651E6B007A0053BDEC /* CachedSegment.swift in Sources */,
 			);
