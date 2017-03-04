@@ -700,13 +700,25 @@
                                     <action selector="onRandomizeButton:" target="XfG-lQ-9wD" id="wmi-nA-i0H"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Oun-3M-GUg">
+                                <rect key="frame" x="14" y="197" width="107" height="32"/>
+                                <buttonCell key="cell" type="push" title="Zero range" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="K2n-EZ-cFj">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="onZeroRange:" target="XfG-lQ-9wD" id="0mn-IP-QaO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="ZPt-7C-c5W" firstAttribute="top" secondItem="oAi-Gy-biJ" secondAttribute="bottom" constant="10" id="72l-RY-UJM"/>
                             <constraint firstAttribute="trailing" secondItem="oAi-Gy-biJ" secondAttribute="trailing" constant="20" id="8a8-8B-Iz6"/>
                             <constraint firstItem="oAi-Gy-biJ" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="AGp-Ko-Fob"/>
+                            <constraint firstItem="Oun-3M-GUg" firstAttribute="top" secondItem="oAi-Gy-biJ" secondAttribute="bottom" constant="10" id="GFC-8I-OA0"/>
                             <constraint firstItem="oAi-Gy-biJ" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="Uuu-C9-qf3"/>
                             <constraint firstAttribute="trailing" secondItem="ZPt-7C-c5W" secondAttribute="trailing" constant="20" id="VVd-lw-6kb"/>
+                            <constraint firstItem="Oun-3M-GUg" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="mBb-1N-h6h"/>
                         </constraints>
                     </view>
                     <connections>

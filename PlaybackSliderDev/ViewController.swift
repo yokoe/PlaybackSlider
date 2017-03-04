@@ -11,5 +11,9 @@ class ViewController: NSViewController {
         slider.cachedSegments = segments
     }
 
+    @IBAction func onZeroRange(_ sender: Any) {
+        slider.maxValue = 0
+        slider.minValue = 0
+    }
 }
 

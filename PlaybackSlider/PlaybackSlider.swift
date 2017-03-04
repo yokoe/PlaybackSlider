@@ -32,7 +32,12 @@ public class PlaybackSlider: NSSlider {
         //Knob
         
         NSColor.windowBackgroundColor.setFill()
-        let knobX = innerRect.minX + CGFloat((doubleValue - minValue) / maxValue) * innerRect.width
+        let knobX: CGFloat
+        if maxValue - minValue == 0 {
+            knobX = innerRect.minX
+        } else {
+            knobX = innerRect.minX + CGFloat((doubleValue - minValue) / maxValue) * innerRect.width
+        }
         let knobPath = NSBezierPath(ovalIn: NSRect(x: knobX - bounds.height * 0.5, y: 0, width: bounds.height, height: bounds.height).insetBy(dx: 2, dy: 2))
         knobPath.fill()
         
