@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19953B8F1E6C1B270020610D /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 19953B8E1E6C1B270020610D /* CHANGELOG */; };
 		19CFFE0A1E6AF5990053BDEC /* PlaybackSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CFFE001E6AF5990053BDEC /* PlaybackSlider.framework */; };
 		19CFFE0F1E6AF5990053BDEC /* PlaybackSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CFFE0E1E6AF5990053BDEC /* PlaybackSliderTests.swift */; };
 		19CFFE111E6AF5990053BDEC /* PlaybackSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CFFE031E6AF5990053BDEC /* PlaybackSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19953B8E1E6C1B270020610D /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
 		19CFFE001E6AF5990053BDEC /* PlaybackSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlaybackSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CFFE031E6AF5990053BDEC /* PlaybackSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaybackSlider.h; sourceTree = "<group>"; };
 		19CFFE041E6AF5990053BDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				19CFFE671E6B03890053BDEC /* PlaybackSlider.podspec */,
 				19CFFE691E6B07140053BDEC /* README.md */,
 				19CFFE6B1E6B072E0053BDEC /* LICENSE */,
+				19953B8E1E6C1B270020610D /* CHANGELOG */,
 			);
 			name = Metadata;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				19CFFE6C1E6B072E0053BDEC /* LICENSE in Resources */,
 				19CFFE681E6B03890053BDEC /* PlaybackSlider.podspec in Resources */,
+				19953B8F1E6C1B270020610D /* CHANGELOG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,6 +736,7 @@
 				19CFFE611E6AFDA20053BDEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
