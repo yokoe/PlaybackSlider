@@ -11,8 +11,7 @@ public class PlaybackSlider: NSSlider {
     let bezelMargin: CGFloat = 4
     
     override public func draw(_ dirtyRect: NSRect) {
-        NSColor.windowBackgroundColor.setFill()
-        NSRectFill(bounds)
+        super.draw(dirtyRect)
         
         NSColor.darkGray.setFill()
         let bezelFrame = bounds.insetBy(dx: bezelMargin, dy: bezelMargin)

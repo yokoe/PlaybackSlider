@@ -3,6 +3,14 @@ import PlaybackSlider
 
 class ViewController: NSViewController {
     @IBOutlet weak var slider: PlaybackSlider!
+    @IBOutlet weak var someView: NSView!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        someView.wantsLayer = true
+        someView.layer?.backgroundColor = NSColor.white.cgColor
+    }
     
     @IBAction func onRandomizeButton(_ sender: Any) {
         var segments = [CachedSegment]()
