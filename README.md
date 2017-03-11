@@ -11,6 +11,12 @@ var segments = [CachedSegment]()
 segments.append(CachedSegment(start: 0, end: 25))
 segments.append(CachedSegment(start: 50, end: 75))
 slider.cachedSegments = segments
+
+// To change colors
+slider.contentBackgroundColor = NSColor.blue
+slider.knobColor = NSColor.red
+slider.knobBorderColor = NSColor.white
+slider.cachedSegmentColor = NSColor.yellow
 ```
 
 Cached segments will be highlighted on slider bar.
